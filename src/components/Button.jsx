@@ -1,7 +1,7 @@
 
 import PropTypes from "prop-types"
 
-function Button({ label, backgroundColor = "red", type = "primary", scale=1, handleClick }) {
+function Button({ label, backgroundColor, type = "primary", scale=1, handleClick }) {
   const style = {
     backgroundColor,
     padding: `${scale * 0.5}rem ${scale * 1}rem`,
